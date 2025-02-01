@@ -1,7 +1,6 @@
 .sec-connect-creat-ys{
   display: flex;
-  justify-content: center;
-  align-items: center;
+ 
   gap: 60px;
   background-color: var(--bg-color);
 }
@@ -171,7 +170,7 @@ padding-left: 32px;
      align-items: center;
   }
   .img-connect-creat-ys{
-      width:375px;
+      width:100%;
   }
   .right-div-connect-creat-ys{
       padding-top: 30px;

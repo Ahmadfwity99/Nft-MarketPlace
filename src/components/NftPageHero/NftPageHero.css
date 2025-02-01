@@ -1,11 +1,14 @@
 .my-img-nft-ys{
-    width: 1280px;
+    width: 100%;
     height: 560px;
 }
 .my-hero-nft-ys{
-    width: 1280px;
+    width: 100%;
     height: 1239px;
-    padding: 40px 115px 40px 115px;
+    display: flex;
+   padding-top: 40px;
+   padding-bottom: 40px;
+    justify-content: center;
     background-color: var(--bg-color);
 }
 .my-div-nft-ys{
@@ -193,13 +196,13 @@
 }
 @media(max-width : 1280px) and (min-width:834px){
     .my-img-nft-ys{
-        width: 834px;
+        width: 100%;
         height: 420px;
     }
     .my-hero-nft-ys{
-        width:834px;
+        width: 100%;
         height: 1239px;
-        padding: 40px 72px 40px 72px;
+        
     }
     .my-div-nft-ys{
         width:690px;
@@ -237,13 +240,19 @@
 }
 @media(max-width :833px){
     .my-img-nft-ys{
-        width: 375px;
+        width: 100%;
         height: 320px;
     }
     .my-hero-nft-ys{
-        width:375px;
+        width: 100%;
         height: 1433px;
-        padding: 40px 30px 40px 30px;
+        
+    }
+    .my-div-nft-ys{
+        width: 315px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .text1-div1-nft-ys ,.text2-div1-nft-ys ,.my-img-des-nft-ys ,.text3-div1-nft-ys ,.text5-div1-nft-ys{
         width:375px;
