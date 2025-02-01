@@ -38,10 +38,22 @@
     margin-bottom: 40px;
     margin: 0;
 }
+.email-section-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.af-email-section-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:10px;
+}
 @media (max-width:834px) {
   .bh-email-section {
-    width: 690px;
-    height: 360px;
       padding: 40px 30px;
       gap: 30px;
   }
@@ -57,11 +69,16 @@
   font-size: 16px;
   line-height: 22.4px;
 }
+.email-section-body .bh-button-one {
+width: 211px;
+height: 60px;
+}
 }
 @media (max-width:375px) {
+  
   .bh-email-section {
+    background-color: var(--bg-color);
     width: 315px;
-    height: 565px;
       padding: 0px;
       gap: 10px;
       flex-direction: column;
