@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './EmailInput.css'
 import ButtonBh from '../ButtonBh/ButtonBh'
 

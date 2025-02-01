@@ -9,7 +9,7 @@
   font-weight: 600;
   color: var(--primary-text-color);
   max-height: 100px;
-
+margin: 0 !important;
 }
 .af-nav-img {
   height: 32px;
@@ -22,6 +22,7 @@
   width: 607px;
   height: 60px;
   gap: 10px;
+  margin: 0 !important;
 }
 .af-nav-body ul {
   display: flex;
@@ -31,15 +32,18 @@
   white-space: nowrap;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0 !important;
 }
 .af-nav-body ul a{
   color: var(--primary-text-color);
   text-decoration: none;
+  margin: 0 !important;
 }
 .af-nav-link {
   transition: 0.3s ease-out;
   width: fit-content;
   padding: 0 20px; 
+  margin: 0 !important;
 }
 .af-nav-link:hover {
   transform: scale(0.95);
@@ -47,6 +51,7 @@
 .af-nav-link a {
   color: var(--primary-text-color);
   text-decoration: none;
+  margin: 0 !important;
 }
 .af-nav-button {
   height: 60px;
@@ -75,6 +80,7 @@
   z-index: 999;
   padding: 25px 50px;
   /* box-shadow: -10px 0 50px rgba(255, 255, 255, 0.9); */
+  margin: 0 !important;
 }
 .af-offcanvas-nav .side-nav-icon {
   transition: 0.3s ease-out;
