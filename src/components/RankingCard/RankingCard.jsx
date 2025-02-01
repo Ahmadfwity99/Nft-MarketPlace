@@ -2,7 +2,7 @@ import "./RankingCard.css";
 
 export default function RankingCard({ id, img, title, percent, description, sales }) {
   return (
-    <div className="af-ranking-card">
+    <div className="af-ranking-card ">
       <div className="af-ranking-card-header">
         <div className="af-ranking-card-id-pop">
           <p className="af-ranking-card-id">{id}</p>
@@ -26,7 +26,6 @@ export default function RankingCard({ id, img, title, percent, description, sale
           <div className="af-ranking-card-sales">
             {sales}
           </div>
-          
       </div>
     </div>
   );

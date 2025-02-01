@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './EmailSection.css'
 import EmailInput from '../EmailInput/EmailInput'
 

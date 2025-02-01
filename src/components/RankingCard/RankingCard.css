@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-second-color);
-  max-width: 1050px;
-  max-height: 84px;
+  width: 1050px;
+  height: 84px;
   border-radius: 20px;
   padding: 12px 0;
   gap: 20px;
@@ -94,7 +94,28 @@
   color: var(--primary-text-color);
 }
 /* Media Queries */
-@media (max-width : 1279px) and (min-width :834px ){
+@media (max-width:1200px) {
+  .af-ranking-card {
+    width: 984px;
+  }
+  .af-ranking-card-header {
+    width: 567px;
+  }
+}
+@media (max-width:992px) {
+  .af-ranking-card {
+    width: 831px;
+  }
+  .af-ranking-card-header {
+    width: 467px;
+  }
+  .af-ranking-card-percent,
+.af-ranking-card-description,
+.af-ranking-card-sales {
+  width: 128px;
+}
+}
+@media (max-width:834px) {
   .af-ranking-card {
     width: 690px;
     height: 60px;
@@ -137,8 +158,28 @@
     display: none;
   }
 }
-
-@media ( max-width : 833px){
+@media (max-width:720px) {
+  .af-ranking-card {
+    width: 590px;
+  }
+  .af-ranking-card-header {
+    width: 345px;
+  }
+  .af-ranking-card-percent,
+.af-ranking-card-description,
+.af-ranking-card-sales {
+  width: 93px;
+}
+}
+@media (max-width:576px) {
+  .af-ranking-card {
+    width: 472px;
+  }
+  .af-ranking-card-header {
+    width: 272px;
+  }
+}
+@media ( max-width : 375px){
   .af-ranking-card {
     width: 315px;
     height: 50px;
