@@ -3,8 +3,8 @@ import './NftPageHero.css'
 import Timer from '../Timer/Timer'
 export default function NftPageHero() {
   return (
-  <>
-     <img className='my-img-nft-ys' src='./../../../public/Images/Image-Placeholder_18.jpg'></img>
+  <section>
+     <img className='my-img-nft-ys' src='./../../../public/Images/Image PlaceHolder (2).png'></img>
      <div className='my-hero-nft-ys'>
      <div className='my-div-nft-ys'>
       <div className='div1-nft-ys'>
@@ -60,6 +60,6 @@ export default function NftPageHero() {
       </div>
      </div>
      </div>
-  </>
+  </section>
   )
 }
