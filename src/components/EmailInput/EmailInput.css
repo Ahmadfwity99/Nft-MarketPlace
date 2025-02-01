@@ -1,0 +1,63 @@
+.hn-email-input {
+  display: flex;
+  width: max-content;
+  border-radius: 20px;
+  font-family: var(--work-sans);
+  line-height: 22.4px;
+  font-size: 16px;
+  background-color: var(--primary-text-color);
+}
+.hn-input {
+  padding: 19px 2px 19px 20px;
+  border: none;
+  border-radius: 20px;
+}
+.hn-input-flex {
+  padding: 19px 25px 19px 20px;
+}
+.hn-input:focus {
+  outline: none;
+}
+.hn-input::placeholder {
+  color: var(--bg-color);
+  font-weight: 400;
+}
+.hn-block-button-smallscreen {
+  display: none !important;
+}
+@media (min-width:834px) and (max-width:1279px)  {
+  .hn-email-input-block {
+    background-color: transparent;
+    display: block;
+  }
+  .hn-input-block {
+    margin-bottom: 16px;
+    padding: 12px 20px;
+    width: 300px;
+  }
+  .hn-email-input-block button {
+    padding: 12px 94.9px;
+  }
+}
+
+@media (min-width:375px) and (max-width:833px) {
+  .hn-email-input {
+    display: block;
+    background-color: transparent;
+  }
+  .hn-input {
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 12px 20px;
+  }
+  .hn-email-input button {
+    padding: 12px 102px;
+    width: 100%;
+  }
+  .hn-block-button-smallscreen {
+    display: block !important;
+  }
+  .hn-none-button-smallscreen {
+    display: none !important;
+  }
+}

@@ -1,0 +1,35 @@
+.bh-email-section-father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 195px 80px 195px;
+    background-color: var(--bg-color);
+    font-family: var(--work-sans);
+}
+.bh-email-section{
+    border-radius: 20px;
+    background-color: var(--bg-second-color);
+    padding: 60px;
+    gap: 80px;
+    width: 1050px;
+    display: flex;
+    align-items: center;
+}
+.bh-email-section-img{
+    height: 310px;
+    border-radius: 20px;
+}
+.bh-email-section h3{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45.6px;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+}
+.bh-email-section-p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35.2px;
+    color: var(--primary-text-color);
+    margin-bottom: 40px;
+}
