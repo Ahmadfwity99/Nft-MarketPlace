@@ -2,10 +2,10 @@
 import React from 'react'
 import './NftMainCard.css'
 import { Link } from 'react-router-dom';
-export default function NftMainCard({mainImg ,title ,subImg ,dsecImg ,price ,highestBid}) {
+export default function NftMainCard({mainImg ,title ,subImg ,dsecImg ,price ,highestBid,x}) {
   return (
     <Link  to="/nft">
-    <div className='bh-main-card'>
+    <div className={x?'bh-main-card-Artist':'bh-main-card-Discover'}>
       <img className='bh-main-card-img' src={mainImg} alt="NFT_image" />
       <div className='bh-main-card-desc'>
         <h5>{title}</h5>
