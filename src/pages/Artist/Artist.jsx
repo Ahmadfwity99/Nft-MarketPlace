@@ -10,7 +10,7 @@ export default function Artist() {
   return (
     <>
     <ArtistPageHero/>
-   <ArtistPageNftCard />
+    <ArtistPageNftCard />
    </>
   )
 }

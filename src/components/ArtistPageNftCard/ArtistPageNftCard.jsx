@@ -1,8 +1,10 @@
 import './ArtistPageNftCard.css'
 import NftMainCard from '../NftMainCard/NftMainCard'
 
-import { ArtistMainCard } from '../../data/ArtistMainCard'
+
 import ArtistPageTaps from '../ArtistPageTaps/ArtistPageTaps'
+
+import { ArtistMainCard } from '../../data/ArtistMainCard'
 export default function ArtistPageNftCard() {
     return(
         <>
@@ -12,7 +14,7 @@ export default function ArtistPageNftCard() {
          <div className='hn-artistNftCard'>
      <div className='hn-cardNft'> 
     {
-       ArtistMainCard.map((e,index)=>{
+      ArtistMainCard.map((e,index)=>{
          return(
       
            <NftMainCard key={index}  mainImg={e.mainImg} subImg={e.subImg} title={e.title} dsecImg={e.dsecImg} price={e.price} highestBid={e.highestBid}  x={true}/>

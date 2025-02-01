@@ -1,5 +1,16 @@
-.bh-main-card{
+
+
+.bh-main-card-Discover{
     background-color: var(--bg-second-color);
+    height: 469px;
+    width: 330px; /* for delete  */ 
+    border-radius: 20px;
+    color: var(--primary-text-color);
+    font-family: var(--space-mono);
+    margin-bottom: 20px;
+}
+.bh-main-card-Artist{
+    background-color: var(--bg-color);
     height: 469px;
     width: 330px; /* for delete  */ 
     border-radius: 20px;

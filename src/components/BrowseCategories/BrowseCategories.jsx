@@ -7,6 +7,8 @@ import BrowseCategoriesCard from '../BrowseCategoriesCard/BrowseCategoriesCard'
 
 export default function BrowseCategories() {
   return (
+    <>
+    <section>
     <div className='hn-browseCategory'>
       <div>
       <h3 className='hn-h3'>Browse Categories</h3>
@@ -20,6 +22,8 @@ export default function BrowseCategories() {
       </div>
       </div>
       </div>
+      </section>
+      </>
   )
 }
 

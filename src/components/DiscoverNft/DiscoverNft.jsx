@@ -30,6 +30,7 @@ export default function DiscoverNft() {
             subImg={d.subImg}
             dsecImg={d.dsecImg}
             highestBid={d.highestBid}
+            x={false}
             />
         
           )
